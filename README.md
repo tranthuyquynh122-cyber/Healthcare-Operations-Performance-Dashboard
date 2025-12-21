@@ -21,7 +21,7 @@ The dataset contains anonymized patient visit records, including admission and d
 
 **Key metrics include:**
 - Total patient visits  
-- Average length of stay (LOS)  
+- Average length of stay 
 - Visits by department  
 - Time-based visit trends  
 
