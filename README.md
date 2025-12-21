@@ -5,7 +5,7 @@
 2. 📂 Dataset Description & Data Structure  
 3. 🔎 Final Conclusion & Recommendations  
 
----
+
 
 ## 📌 Background & Overview
 This project analyzes healthcare operational data and presents key performance indicators through an interactive Power BI dashboard.  
@@ -14,7 +14,7 @@ The goal is to help hospital management monitor patient flow, evaluate departmen
 **Tools:** Power BI, DAX, Excel / CSV  
 **Domain:** Healthcare Analytics / Hospital Operations  
 
----
+
 
 ## 📂 Dataset Description & Data Structure
 The dataset contains anonymized patient visit records, including admission and discharge dates, departments, and service types.
