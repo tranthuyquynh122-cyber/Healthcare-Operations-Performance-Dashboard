@@ -14,7 +14,9 @@ The goal is to help hospital management monitor patient flow, evaluate departmen
 **Tools:** Power BI, DAX, Excel / CSV  
 **Domain:** Healthcare Analytics / Hospital Operations  
 
-
+##  Visualization
+1. Overview
+! [image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/dfd40e18d9c60bf7bf6fe89e51e7483ec491998b/Screenshot%202025-12-24%20232033.png)
 
 ## 📂 Dataset Description & Data Structure
 The dataset contains anonymized patient visit records, including admission and discharge dates, departments, and service types.
