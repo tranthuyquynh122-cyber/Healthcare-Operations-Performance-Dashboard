@@ -79,7 +79,7 @@ The dashboard is built using a **star schema** optimized for analytical reportin
 
 ---
 
-## 🖥️ Dashboard Screenshots
+## 🖥️ Visualization
 
 ### 🔹 Overview – Financial & Operational Performance
 Provides a high-level view of **Total Billing Amount**, **Total Patients**, cost breakdowns, and department-level revenue contribution.
