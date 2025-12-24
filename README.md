@@ -15,8 +15,7 @@ The goal is to help hospital management monitor patient flow, evaluate departmen
 **Domain:** Healthcare Analytics / Hospital Operations  
 
 ##  Visualization
-1. Overview
-! [image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/dfd40e18d9c60bf7bf6fe89e51e7483ec491998b/Screenshot%202025-12-24%20232033.png)
+![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/4295f02c089a4a1e1ddeae38972c53b1022a1e81/Screenshot%202025-12-24%20232813.png)
 
 ## 📂 Dataset Description & Data Structure
 The dataset contains anonymized patient visit records, including admission and discharge dates, departments, and service types.
