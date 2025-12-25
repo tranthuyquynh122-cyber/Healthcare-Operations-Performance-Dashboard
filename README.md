@@ -6,7 +6,7 @@ The dashboard is designed to support hospital management in monitoring key metri
 
 The solution is built on a **star schema data model**, ensuring scalable analysis and efficient reporting.
 
----
+
 
 ## 📋 Table of Contents
 - Project Description  
@@ -19,7 +19,7 @@ The solution is built on a **star schema data model**, ensuring scalable analysi
 - Project Structure  
 - Contact  
 
----
+
 
 ## 🧠 Business Context
 Hospitals generate large volumes of operational data related to:
@@ -35,7 +35,7 @@ Without proper analytics, it is difficult to understand:
 
 This project transforms raw healthcare data into **clear, actionable insights** through an interactive Power BI dashboard.
 
----
+
 
 ## 🗂️ Data Model (Star Schema)
 The dashboard is built using a **star schema** optimized for analytical reporting.
@@ -59,7 +59,7 @@ The dashboard is built using a **star schema** optimized for analytical reportin
 - **Dim_cities** – geographic dimension  
 - **Date** – calendar dimension for time-based analysis  
 
----
+
 
 ## 📊 Key Metrics & Analysis
 
@@ -77,7 +77,7 @@ The dashboard is built using a **star schema** optimized for analytical reportin
 - Breakdown by department, provider, diagnosis, and insurance  
 - Identification of high-revenue services and patient segments  
 
----
+
 
 ## 🖥️ Visualization
 
@@ -86,7 +86,7 @@ Provides a high-level view of **Total Billing Amount**, **Total Patients**, cost
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/4295f02c089a4a1e1ddeae38972c53b1022a1e81/Screenshot%202025-12-24%20232813.png)
 
----
+
 
 ### 🔹 Doctors – Provider Performance Analysis
 Analyzes doctor performance, including:
@@ -94,10 +94,10 @@ Analyzes doctor performance, including:
 - Average patient satisfaction score  
 - Procedures performed  
 - Average treatment cost
-- 
+  
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/e4215c9950d5889ae9e7ff69ca2ea4487f25c2d5/Screenshot%202025-12-24%20232152.png)
 
----
+
 
 ### 🔹 Patients – Demographics & Visit Behavior
 Explores patient characteristics and behavior, including:
@@ -116,7 +116,7 @@ Explores patient characteristics and behavior, including:
 - **Excel / CSV** – data preprocessing and validation  
 - **Healthcare domain knowledge** – KPI interpretation and operational context  
 
----
+
 ## 🔍 Final Conclusion & Recommendations
 
 👉 Based on the insights and findings from the Healthcare Operations Performance Dashboard, the following key conclusions and recommendations are proposed for hospital management and operations teams.
