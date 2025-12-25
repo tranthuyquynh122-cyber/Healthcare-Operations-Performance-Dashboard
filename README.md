@@ -13,12 +13,9 @@ The solution is built on a **star schema data model**, ensuring scalable analysi
 - Business Context  
 - Data Model  
 - Key Metrics & Analysis  
-- Dashboard Screenshots  
-- Tools & Technologies  
-- Dashboard Output  
-- Project Structure  
-- Contact  
-
+- Visualization
+- Tools & Technologies
+- Final Conclusion & Recommendations
 
 
 ## 🧠 Business Context
