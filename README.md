@@ -214,55 +214,6 @@ The goal is to move step by step from understanding stakeholder problems → def
 <a id="key-insights--visualizations"></a>
 ## 📊 Key Insights & Visualizations
 
-<details>
-<summary><strong>Dashboard 1 – Overview</strong></summary>
-
-**Observations**
-- A small number of departments generate most billing  
-- Billing fluctuates over time  
-- Insurance covers a significant share of costs  
-
-**Recommendations**
-- Monitor high-cost departments  
-- Reduce dependency on limited services  
-- Use trends for financial planning  
-
-</details>
-
-<details>
-<summary><strong>Dashboard 2 – Doctors</strong></summary>
-
-**Observations**
-- Doctor workload is uneven  
-- Some doctors handle disproportionately high patient volumes  
-- High workload does not always imply high satisfaction  
-
-**Recommendations**
-- Balance workload  
-- Improve scheduling  
-- Track satisfaction together with productivity  
-
-</details>
-
-<details>
-<summary><strong>Dashboard 3 – Patients</strong></summary>
-
-**Observations**
-- Patient volume varies by month  
-- Middle-aged and elderly groups dominate  
-- Emergency visits represent a significant share  
-
-**Recommendations**
-- Prepare resources for peak periods  
-- Monitor emergency usage  
-- Improve follow-up strategies  
-
-</details>
-
----
-
-## 📊 Key Insights & Visualizations
-
 ### 🔍 Dashboard Preview
 
 #### 1️⃣ Dashboard 1 – Hospital Overview (Executive View)
