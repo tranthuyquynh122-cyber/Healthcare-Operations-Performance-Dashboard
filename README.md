@@ -3,7 +3,7 @@
 
 **Author:** Tran Thuy Quynh  
 **Date:** 2025-10 
-**Tools:** Power BI  
+**Tools Used:** Power BI  
 
 ## 📑 Table of Contents
 
