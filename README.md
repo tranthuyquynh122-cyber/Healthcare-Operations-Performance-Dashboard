@@ -1,6 +1,5 @@
 # 📊 Healthcare Operations Performance Analysis | Power BI
 **Business Operations & Financial Insights | Healthcare Domain | Power BI**
-
 **Author:** Tran Thuy Quynh  
 **Date:** 2025-10 
 **Tools Used:** Power BI  
@@ -20,23 +19,24 @@
 
 ### 📘 What is this project about?
 
-This project focuses on analyzing **hospital operational and financial performance** using healthcare data and Power BI dashboards.  
-The goal is to help hospital management better understand how patient volume, medical services, doctors, and costs interact — and how these factors impact overall efficiency, revenue, and patient experience.
+This project analyzes **hospital operational and financial performance** using healthcare data and interactive Power BI dashboards.
 
-The dashboard translates complex hospital data into clear, actionable insights that support data-driven decision-making at both operational and strategic levels.
+The analysis examines how **patient demand, department services, doctor workload, and treatment costs** interact and how these factors influence hospital efficiency, revenue generation, and patient experience.
 
-This project helps answer real-world business questions such as:
+Through structured dashboards and drill-down analysis, the project helps hospital management identify operational bottlenecks, revenue concentration, and workload imbalances across departments and physicians.
 
-- How many patients are being served over time, and how does demand fluctuate?
-- Which departments generate the highest billing and handle the most patients?
-- Which doctors manage the highest workload, and how balanced is doctor performance?
-- Are treatment costs and medication costs under control?
-- How dependent is revenue on specific departments or insurance providers?
+The dashboard helps answer key operational questions such as:
+
+- How does patient demand change over time?
+- Which departments generate the highest billing revenue?
+- Which doctors manage the largest patient workload?
+- How do treatment and medication costs impact overall billing?
+- How dependent is hospital revenue on specific departments or insurance providers?
 - Are there signs of operational bottlenecks or workload imbalance?
 - How does patient satisfaction vary across doctors and departments?
-- Where should resources be reallocated to improve efficiency and patient experience?
+- Where should hospital resources be allocated to improve operational efficiency?
 
-The analysis transforms raw hospital data into structured insights that support **better planning, cost control, workload balancing, and service optimization**.
+Overall, the analysis transforms raw hospital data into actionable insights that support **resource planning, cost control, workload balancing, and service optimization**.
 
 ---
 
@@ -232,7 +232,7 @@ Revenue distribution across departments is also uneven. **Cardiology and Orthope
 
 **Insight**
 
-This pattern suggests that the hospital's revenue growth is currently driven primarily by **increasing patient volume rather than higher-value treatments or procedures**. In other words, the hospital may be serving more patients, but the **average value generated per visit is not increasing at the same pace**.  
+This suggests that hospital revenue growth is driven mainly by increasing patient volume rather than higher-value treatments.
 
 Additionally, the strong revenue contribution from only a few departments indicates a **concentration of financial performance in specific specialties**. While this may reflect strong clinical demand in these areas, it also suggests that other departments may be **underutilized or not generating comparable revenue streams**.
 
@@ -245,7 +245,7 @@ Hospital management should track **revenue per visit** as a key financial perfor
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Drilldown.png)
 
-***Observation**
+**Observation**
 Drilling down into department-level data shows that **Cardiology generates the highest total billing**, followed by Orthopedics and General Surgery.  
 
 Within departments, revenue is often driven by a **limited number of diagnoses and procedures**, while many other services contribute relatively smaller shares of department revenue.
@@ -261,23 +261,27 @@ Hospital management should assess whether high-performing departments require **
 ### 👨‍⚕️ Dashboard 2 – Doctors Performance Analysis
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Doctors.png)
-#### 🔍 Analysis 2: Doctor-level Drill-down
+#### 🔍 Doctor workload distribution is uneven
 
 **Observation**
 
-When drilling down into the department-level data, **Cardiology emerges as the department generating the highest total billing**, followed by Orthopedics and General Surgery.  
+Doctor workload distribution is uneven across physicians.  
+For example, **Dr. Olu Abiola handles a significantly higher number of patient visits compared with other doctors**.
 
-Within each department, revenue is further concentrated in a **small number of diagnoses or treatment types**, while many other procedures contribute only a small share of total revenue.
+Despite the higher patient volume, **Dr. Olu Abiola also maintains one of the highest patient satisfaction scores**, indicating that a higher workload does not necessarily reduce service quality.
 
 **Insight**
 
-This revenue structure indicates that hospital financial performance is heavily influenced by **a limited set of specialties and procedures**. While specialization can be beneficial in terms of expertise and service quality, it also creates a **structural reliance on certain departments for financial performance**.  
-
-If patient demand shifts away from these specialties, or if reimbursement policies change, the hospital could experience a noticeable decline in revenue.
+This suggests that high patient volume alone does not lead to lower patient satisfaction.  
+Instead, differences in **consultation efficiency, communication skills, and clinical workflow** may explain why some doctors can manage higher workloads while still maintaining strong patient experience.
 
 **Recommendation**
 
-Hospital administrators should consider expanding capacity in **high-demand departments** while also identifying opportunities to improve service offerings in **lower-performing departments**. Strengthening underperforming service lines can help create a **more balanced and resilient revenue structure**.
+Hospital management should:
+
+- Analyze **best practices from high-performing doctors such as Dr. Olu Abiola**
+- Identify consultation or workflow approaches that enable efficient patient handling
+- Apply these practices across other physicians to **balance workload while maintaining service quality**
 
 
 ### 🧑‍🤝‍🧑 Dashboard 3 – Patient Profile & Behavior Analysis
@@ -339,6 +343,15 @@ Seasonal fluctuations in patient visits should be incorporated into workforce an
 
 Monitoring the distribution of insurance providers can help hospitals manage financial exposure and reduce potential risks related to reimbursement policy changes.
 The framework can be easily extended to support forecasting, performance benchmarking, and continuous improvement initiatives across healthcare organizations.
+
+## 📊 Project Impact
+
+This dashboard helps hospital management:
+
+• Identify revenue concentration across departments  
+• Detect workload imbalance among physicians  
+• Understand seasonal patient demand patterns  
+• Support data-driven operational planning
 
 ## 📌 Final Summary
 
