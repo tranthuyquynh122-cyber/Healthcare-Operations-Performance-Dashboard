@@ -261,7 +261,7 @@ Hospital management should assess whether high-performing departments require **
 ### 👨‍⚕️ Dashboard 2 – Doctors Performance Analysis
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Doctors.png)
-#### 🔍 Doctor workload distribution is uneven
+#### 🔍 Doctor Performance & Workload Analysis
 
 **Observation**
 
@@ -309,17 +309,18 @@ Hospitals should use patient demand trends to improve **staffing and resource pl
 
 ### Key Findings
 
-The analysis of hospital operations reveals several structural patterns that influence both operational efficiency and financial performance.
+The analysis of hospital operations highlights three key operational patterns that influence both efficiency and financial performance.
 
-First, hospital revenue is not evenly distributed across departments. A small number of specialties, particularly Cardiology and Orthopedics, contribute a significant share of total billing. While this reflects strong demand in those areas, it also indicates that the hospital's financial performance relies heavily on a limited set of service lines.
+1. **Revenue concentration across departments**  
+Hospital revenue is largely driven by a small number of specialties, particularly **Cardiology and Orthopedics**, indicating strong demand in these areas but also a level of financial dependence on specific service lines.
 
-Second, doctor workload distribution is uneven. Some physicians handle a much larger share of patient visits than others. Although certain high-volume doctors maintain strong patient satisfaction scores, persistent workload imbalance may create operational pressure and increase the risk of physician burnout during peak demand periods.
+2. **Uneven doctor workload distribution**  
+Patient visits are not evenly distributed among physicians. Some doctors manage significantly higher patient volumes, suggesting opportunities to improve workload allocation and operational balance.
 
-Third, patient demand shows seasonal fluctuations and is concentrated among specific demographic groups. These patterns suggest that healthcare demand is influenced by periodic medical needs and chronic condition management cycles. In addition, a significant portion of hospital billing is associated with a small number of insurance providers, indicating potential dependency on specific payer channels.
+3. **Seasonal and demographic patterns in patient demand**  
+Patient visits fluctuate over time and are concentrated among specific demographic groups, indicating that healthcare demand is influenced by recurring medical needs and population characteristics.
 
-Taken together, these findings suggest that hospital performance is influenced not only by patient volume, but also by how effectively resources, services, and medical staff are distributed across the organization.
-
----
+Overall, hospital performance is shaped not only by patient volume, but also by how effectively **resources, departments, and medical staff are distributed across the organization**.
 
 ### Strategic Recommendations
 
