@@ -246,20 +246,17 @@ Hospital management should track **revenue per visit** as a key financial perfor
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Drilldown.png)
 
 ***Observation**
+Drilling down into department-level data shows that **Cardiology generates the highest total billing**, followed by Orthopedics and General Surgery.  
 
-When drilling down into the department-level data, **Cardiology emerges as the department generating the highest total billing**, followed by Orthopedics and General Surgery.  
-
-Within each department, revenue is further concentrated in a **small number of diagnoses or treatment types**, while many other procedures contribute only a small share of total revenue.
+Within departments, revenue is often driven by a **limited number of diagnoses and procedures**, while many other services contribute relatively smaller shares of department revenue.
 
 **Insight**
 
-This revenue structure indicates that hospital financial performance is heavily influenced by **a limited set of specialties and procedures**. While specialization can be beneficial in terms of expertise and service quality, it also creates a **structural reliance on certain departments for financial performance**.  
-
-If patient demand shifts away from these specialties, or if reimbursement policies change, the hospital could experience a noticeable decline in revenue.
+This pattern indicates that hospital revenue relies heavily on **specific specialties and procedures**. While these departments demonstrate strong demand, the hospital's financial performance may become **structurally dependent on a few key service lines**.
 
 **Recommendation**
 
-Hospital administrators should consider expanding capacity in **high-demand departments** while also identifying opportunities to improve service offerings in **lower-performing departments**. Strengthening underperforming service lines can help create a **more balanced and resilient revenue structure**.
+Hospital management should assess whether high-performing departments require **additional operational capacity**, while also identifying opportunities to improve utilization in **lower-performing departments** to build a more balanced revenue structure.
 
 ### 👨‍⚕️ Dashboard 2 – Doctors Performance Analysis
 
