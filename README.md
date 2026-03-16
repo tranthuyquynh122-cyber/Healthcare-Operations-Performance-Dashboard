@@ -222,86 +222,128 @@ The goal is to move step by step from understanding stakeholder problems → def
 
 ### 📌 Analysis 1
 
-#### 🔎 Observation
+### Observation
 
-**Observation**
+Total hospital billing reached approximately **£3M**, generated from **4,973 patient visits** during the analysis period.
 
-Total hospital billing reached approximately **£3M**, generated from around **4,973 patient visits** during the analysis period. However, although patient volume increased over time, the **average billing per visit (£674.86)** showed a slight downward trend.  
+While patient volume increased over time, the **average billing per visit (£674.86)** shows a slight declining trend.
 
-Revenue distribution across departments is also uneven. **Cardiology and Orthopedics contribute the largest share of total hospital billing**, while several other departments generate considerably lower revenue.
+Revenue distribution across departments is also uneven. **Cardiology and Orthopedics contribute the largest share of total hospital revenue**, while other departments generate significantly smaller contributions.
 
-**Insight**
+In addition, **treatment costs account for the largest share of operational expenses**, significantly higher than medication and room-related charges.
 
-This suggests that hospital revenue growth is driven mainly by increasing patient volume rather than higher-value treatments.
+### Interpretation
 
-Additionally, the strong revenue contribution from only a few departments indicates a **concentration of financial performance in specific specialties**. While this may reflect strong clinical demand in these areas, it also suggests that other departments may be **underutilized or not generating comparable revenue streams**.
+Revenue growth appears to be driven primarily by **increasing patient volume rather than higher-value medical procedures**.
 
-**Recommendation**
+This suggests that hospital revenue growth may currently rely more on routine consultations or lower-cost services rather than complex procedures that typically generate higher revenue per visit.
 
-Hospital management should track **revenue per visit** as a key financial performance indicator alongside total billing. At the same time, leadership should evaluate opportunities to **expand high-value services or procedures in underperforming departments**, helping to diversify revenue sources and reduce dependence on a small number of specialties.
+The concentration of revenue in a limited number of departments also indicates a **potential structural dependency on specific medical specialties**.
 
+### Business Impact
+
+If patient growth continues to be driven mainly by lower-value visits, the hospital may face limitations in revenue growth despite increasing operational workload.
+
+Heavy reliance on a small number of departments could also introduce financial risk if demand in those specialties declines.
+
+### Recommendations
+
+- Expand high-value medical procedures where appropriate.
+- Ensure sufficient staffing and resources for high-demand departments such as Cardiology and Orthopedics.
+- Monitor department-level profitability to identify opportunities for service expansion.
 ---
 ### 🔍 Drill-down Analysis – Overview (Department-level)
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Drilldown.png)
 
-**Observation**
-Drilling down into department-level data shows that **Cardiology generates the highest total billing**, followed by Orthopedics and General Surgery.  
+To better understand the drivers of hospital performance, the dashboard enables a drill-down view that analyzes operational metrics at the **department level**.
 
-Within departments, revenue is often driven by a **limited number of diagnoses and procedures**, while many other services contribute relatively smaller shares of department revenue.
+#### Observation
 
-**Insight**
+Department-level analysis shows clear differences in both **revenue contribution and patient volume** across hospital specialties.
 
-This pattern indicates that hospital revenue relies heavily on **specific specialties and procedures**. While these departments demonstrate strong demand, the hospital's financial performance may become **structurally dependent on a few key service lines**.
+Cardiology and Orthopedics stand out as the **two highest revenue-generating departments**, driven by a combination of higher patient demand and higher-value medical procedures.
 
-**Recommendation**
+In contrast, several other departments contribute a relatively smaller share of hospital billing despite maintaining steady patient visits.
 
-Hospital management should assess whether high-performing departments require **additional operational capacity**, while also identifying opportunities to improve utilization in **lower-performing departments** to build a more balanced revenue structure.
+#### Interpretation
 
+This pattern suggests that hospital revenue is **not evenly distributed across departments**. Instead, financial performance is concentrated in specialties that typically involve more complex procedures and specialized treatments.
+
+Departments with lower revenue contribution may focus on routine consultations or services with lower billing values.
+
+#### Business Impact
+
+A revenue structure that relies heavily on a small number of departments can introduce **operational and financial concentration risk**. Any disruption in demand or staffing within these key specialties could significantly impact overall hospital performance.
+
+At the same time, departments with lower revenue contribution may represent **opportunities for service expansion or operational optimization**.
+
+#### Recommendation
+
+- Ensure sufficient staffing and medical resources in high-demand departments such as **Cardiology and Orthopedics**.
+- Evaluate opportunities to expand high-value procedures in other departments.
+- Monitor department-level performance regularly to maintain balanced operational growth.
+\
 ### 👨‍⚕️ Dashboard 2 – Doctors Performance Analysis
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Doctors.png)
 #### 🔍 Doctor Performance & Workload Analysis
 
-**Observation**
+### Observation
 
-Doctor workload distribution is uneven across physicians.  
-For example, **Dr. Olu Abiola handles a significantly higher number of patient visits compared with other doctors**.
+Doctor-level performance analysis reveals noticeable differences in patient workload across physicians.
 
-Despite the higher patient volume, **Dr. Olu Abiola also maintains one of the highest patient satisfaction scores**, indicating that a higher workload does not necessarily reduce service quality.
+Some doctors handle significantly higher patient volumes than others. For example, **Dr. Olu Abiola records one of the highest patient counts**, indicating a strong contribution to overall hospital service capacity.
 
-**Insight**
+At the same time, other physicians appear to have comparatively lower patient loads.
 
-This suggests that high patient volume alone does not lead to lower patient satisfaction.  
-Instead, differences in **consultation efficiency, communication skills, and clinical workflow** may explain why some doctors can manage higher workloads while still maintaining strong patient experience.
+### Interpretation
 
-**Recommendation**
+The imbalance in patient distribution may indicate differences in physician specialization, scheduling efficiency, or patient preference.
 
-Hospital management should:
+High patient volumes handled by specific doctors may reflect strong reputation or operational efficiency, but sustained workload concentration could also increase the risk of **physician burnout**.
 
-- Analyze **best practices from high-performing doctors such as Dr. Olu Abiola**
-- Identify consultation or workflow approaches that enable efficient patient handling
-- Apply these practices across other physicians to **balance workload while maintaining service quality**
+### Business Impact
 
+Uneven workload distribution can create operational inefficiencies. Over-utilized doctors may experience fatigue, while under-utilized physicians represent unused capacity.
+
+Balanced patient allocation could improve operational efficiency and maintain service quality across the hospital.
+
+### Recommendations
+
+- Review appointment scheduling processes to distribute patient visits more evenly.
+- Support high-performing physicians with additional operational resources where necessary.
+- Monitor physician workload to reduce burnout risk.
+
+---
 
 ### 🧑‍🤝‍🧑 Dashboard 3 – Patient Profile & Behavior Analysis
 
-**Observation**
+### Observation
 
-Patient demand shows **noticeable seasonal patterns**, with certain months experiencing higher visit volumes than others.  
+Patient demand shows variations across demographic groups and insurance providers.
 
-Demographic analysis also reveals that patient visits are **concentrated among middle-aged and older populations**, which aligns with typical healthcare demand patterns. Additionally, a few insurance providers account for a **significant portion of hospital billing coverage**.
+Certain age groups represent a larger share of hospital visits, suggesting that healthcare demand may be concentrated among specific patient segments.
 
-**Insight**
+Insurance provider distribution also shows concentration among several major providers.
 
-Seasonal fluctuations in patient visits may be associated with **seasonal illnesses, routine health screenings, or ongoing management of chronic conditions**. Understanding these patterns is essential for anticipating demand and planning operational capacity.  
+### Interpretation
 
-At the same time, reliance on a limited number of insurance providers suggests that hospital revenue may be **financially dependent on a small set of payer channels**, which could expose the organization to financial risk if reimbursement policies change.
+Understanding demographic demand patterns can help hospitals better align services with patient needs.
 
-**Recommendation**
+Insurance coverage distribution may also influence hospital revenue streams, as reimbursement rates and payment structures vary between providers.
 
-Hospitals should use patient demand trends to improve **staffing and resource planning**, ensuring that staffing levels align with expected seasonal demand. Additionally, leadership should monitor the distribution of insurance providers to reduce potential financial exposure and maintain a balanced payer mix.
+### Business Impact
 
+If patient demand is concentrated within specific demographic segments or insurance providers, the hospital may become financially dependent on a limited set of patient groups.
+
+Understanding these patterns is important for long-term revenue stability and service planning.
+
+### Recommendations
+
+- Monitor demographic demand patterns to support service planning.
+- Evaluate partnerships with major insurance providers.
+- Develop targeted healthcare programs for high-demand patient groups.
 ---
 
 <a id="final-conclusion--recommendations"></a>
@@ -311,57 +353,29 @@ Hospitals should use patient demand trends to improve **staffing and resource pl
 
 The analysis of hospital operations highlights three key operational patterns that influence both efficiency and financial performance.
 
-1. **Revenue concentration across departments**  
+1️⃣ **Revenue concentration across departments**
+
 Hospital revenue is largely driven by a small number of specialties, particularly **Cardiology and Orthopedics**, indicating strong demand in these areas but also a level of financial dependence on specific service lines.
 
-2. **Uneven doctor workload distribution**  
+2️⃣ **Uneven doctor workload distribution**
+
 Patient visits are not evenly distributed among physicians. Some doctors manage significantly higher patient volumes, suggesting opportunities to improve workload allocation and operational balance.
 
-3. **Seasonal and demographic patterns in patient demand**  
-Patient visits fluctuate over time and are concentrated among specific demographic groups, indicating that healthcare demand is influenced by recurring medical needs and population characteristics.
+3️⃣ **Seasonal and demographic patterns in patient demand**
 
-Overall, hospital performance is shaped not only by patient volume, but also by how effectively **resources, departments, and medical staff are distributed across the organization**.
+Patient visits fluctuate over time and are concentrated among specific demographic groups, indicating that healthcare demand is influenced by recurring medical needs and population characteristics.
 
 ### Strategic Recommendations
 
-**1️⃣ Improve workload balance among doctors**
+Based on the analysis, several strategic actions could improve hospital operations:
 
-Hospitals should implement workload-balanced scheduling systems that distribute patient demand more evenly across physicians. This can help reduce physician burnout, shorten patient waiting times, and improve overall service capacity.
+- Improve operational efficiency by balancing physician workloads.
+- Expand high-value medical services to improve revenue sustainability.
+- Strengthen capacity planning for high-demand departments.
+- Monitor demographic demand patterns to support long-term healthcare planning.
 
-**2️⃣ Diversify revenue sources across departments**
+# Project Impact
 
-To reduce financial dependency on a small number of specialties, hospital management should explore opportunities to expand high-value services in underperforming departments and improve utilization across different medical units.
+This dashboard demonstrates how healthcare operational data can be transformed into actionable insights for hospital management.
 
-**3️⃣ Monitor revenue per visit alongside patient volume**
-
-Tracking revenue per visit can provide deeper insight into whether growth is driven by higher-value treatments or by lower-cost consultations. This metric can help hospital leadership evaluate the sustainability of revenue growth.
-
-**4️⃣ Use patient demand patterns for operational planning**
-
-Seasonal fluctuations in patient visits should be incorporated into workforce and capacity planning. Aligning staffing levels with expected demand can improve service efficiency and reduce operational pressure during peak periods.
-
-**5️⃣ Maintain a balanced insurance payer mix**
-
-Monitoring the distribution of insurance providers can help hospitals manage financial exposure and reduce potential risks related to reimbursement policy changes.
-The framework can be easily extended to support forecasting, performance benchmarking, and continuous improvement initiatives across healthcare organizations.
-
-## 📊 Project Impact
-
-This dashboard helps hospital management:
-
-• Identify revenue concentration across departments  
-• Detect workload imbalance among physicians  
-• Understand seasonal patient demand patterns  
-• Support data-driven operational planning
-
-## 📌 Final Summary
-
-This project analyzes hospital operational performance through a set of Power BI dashboards that examine **revenue distribution, doctor workload, and patient demand patterns**.
-
-The analysis shows that hospital revenue is primarily driven by a small number of departments, indicating a **concentration of financial performance in specific specialties**. While these departments generate strong demand, relying heavily on a limited set of service lines may expose the hospital to financial risk if patient demand shifts.
-
-At the operational level, doctor workload is unevenly distributed. A few physicians manage a significantly higher number of patient visits than their peers. Although some high-volume doctors maintain strong patient satisfaction scores, persistent workload imbalance may lead to **operational pressure and potential burnout risks**.
-
-From the patient perspective, demand fluctuates across time and demographic groups. Seasonal patterns and demographic concentration suggest that healthcare utilization is influenced by recurring medical needs, such as chronic condition management and routine health checkups.
-
-Overall, the findings highlight the importance of **data-driven operational planning**. By balancing doctor workloads, diversifying revenue across departments, and aligning staffing capacity with patient demand patterns, hospital management can improve both **operational efficiency and long-term financial sustainability**.
+By integrating financial performance, physician productivity, and patient demand analysis, hospital administrators can better understand operational challenges and identify opportunities to improve both **healthcare quality and financial sustainability**.
