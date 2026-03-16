@@ -220,8 +220,6 @@ The goal is to move step by step from understanding stakeholder problems → def
 
 <img width="1134" height="751" alt="image" src="https://github.com/user-attachments/assets/b0dfdc57-6137-4442-be7d-15ee89816dd7" />
 
-
-
 ### 📌 Analysis 1
 
 #### 🔎 Observation
