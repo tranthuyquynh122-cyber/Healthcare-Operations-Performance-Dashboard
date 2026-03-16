@@ -218,7 +218,8 @@ The goal is to move step by step from understanding stakeholder problems → def
 
 #### 1️⃣ Dashboard 1 – Hospital Overview (Executive View)
 
-![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/overview-helathcare.png)
+<img width="1134" height="751" alt="image" src="https://github.com/user-attachments/assets/b0dfdc57-6137-4442-be7d-15ee89816dd7" />
+
 
 
 ### 📌 Analysis 1
