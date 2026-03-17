@@ -226,37 +226,37 @@ The goal is to move step by step from understanding stakeholder problems → def
 
 Total hospital billing reached approximately **£3M**, generated from **4,973 patient visits**.
 
-However, while patient volume increased over time, the **average billing per visit declined to £674.86**, indicating a divergence between volume and value.
+However, while patient volume increased over time, the **average billing per visit declined to £674.86**, indicating a gap between volume growth and value.
 
-At the cost level, **treatment costs (£2.63M)** account for the majority of total expenses, significantly higher than medication (£546K) and room charges.
+Cost structure is heavily dominated by **treatment costs (£2.63M)**, significantly exceeding medication (£546K) and other cost components.
 
-Revenue is also highly concentrated across departments, with **Cardiology and Orthopedics contributing the largest share**, while other departments generate comparatively lower billing.
+Revenue is also highly concentrated, with **Cardiology and Orthopedics contributing a disproportionately large share of total billing**, while other departments generate significantly lower revenue.
 
 ---
 
 #### 💡 Interpretation
 
-The increase in total billing is primarily driven by **higher patient volume rather than higher-value treatments**.
+Revenue growth is primarily driven by **higher patient volume rather than higher-value treatments**.
 
-The decline in average billing per visit suggests that recent growth is likely coming from **routine or lower-cost services**, instead of complex procedures that typically generate higher revenue.
+The declining revenue per visit suggests that growth is coming from **lower-value services**, rather than complex procedures.
 
-In addition, the concentration of revenue in a few departments indicates a **structural dependency on specific specialties**.
+The concentration of revenue in a few departments indicates a **structural dependency on specific service lines**.
 
 ---
 
 #### 📉 Business Impact
 
-If this trend continues, the hospital may experience **increasing operational workload without proportional revenue growth**, putting pressure on overall efficiency and margins.
+If this trend continues, the hospital may experience **increasing workload without proportional revenue growth**, reducing operational efficiency.
 
-Dependence on a limited number of departments also introduces **financial risk**, as any decline in demand or capacity in these specialties could significantly impact total revenue.
+Revenue concentration also creates **financial risk**, as performance becomes dependent on a limited number of departments.
 
 ---
 
 #### 🎯 Recommendations
 
-- Prioritize expansion of **high-value procedures** within Cardiology and Orthopedics to improve revenue per visit.
-- Review pricing and service mix to reduce reliance on **low-margin routine services**.
-- Monitor **average billing per visit** as a key KPI alongside total revenue to ensure growth quality.
+- Expand **high-value procedures** within Cardiology and Orthopedics to increase revenue per visit.
+- Optimize **service mix and pricing strategy** to reduce reliance on low-margin services.
+- Track **revenue per visit** as a key KPI alongside total revenue.
 ### 🔍 Drill-down Analysis – Overview (Department-level)
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Drilldown.png)
