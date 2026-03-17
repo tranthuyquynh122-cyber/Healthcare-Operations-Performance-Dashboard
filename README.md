@@ -19,38 +19,30 @@
 
 ### 📘 What is this project about?
 
-This project analyzes **hospital operational and financial performance** using healthcare data and interactive Power BI dashboards.
+### 📖 What is this project about?
 
-The analysis examines how **patient demand, department services, doctor workload, and treatment costs** interact and how these factors influence hospital efficiency, revenue generation, and patient experience.
+Hospitals generate large volumes of operational and financial data, but turning this data into actionable insights for decision-making remains a challenge.
 
-Through structured dashboards and drill-down analysis, the project helps hospital management identify operational bottlenecks, revenue concentration, and workload imbalances across departments and physicians.
+This project analyzes hospital performance using healthcare data and interactive Power BI dashboards, focusing on how **patient demand, department performance, doctor workload, and treatment costs** impact operational efficiency and revenue.
 
-The dashboard helps answer key operational questions such as:
+The analysis aims to identify:
+- Revenue concentration across departments  
+- Workload imbalances across doctors  
+- Demand patterns across patient segments  
 
-- How does patient demand change over time?
-- Which departments generate the highest billing revenue?
-- Which doctors manage the largest patient workload?
-- How do treatment and medication costs impact overall billing?
-- How dependent is hospital revenue on specific departments or insurance providers?
-- Are there signs of operational bottlenecks or workload imbalance?
-- How does patient satisfaction vary across doctors and departments?
-- Where should hospital resources be allocated to improve operational efficiency?
-
-Overall, the analysis transforms raw hospital data into actionable insights that support **resource planning, cost control, workload balancing, and service optimization**.
-
+These insights support data-driven decisions in **resource allocation, cost optimization, and operational efficiency improvement**.
 ---
 
-### 👤 Who is this project for?
+### 👥 Who is this project for?
 
-This project is designed for stakeholders who are responsible for managing hospital operations, performance, and strategy, including:
+This project is designed for stakeholders responsible for hospital performance and operational decision-making, including:
 
-- ✅ Hospital directors and executive management  
-- ✅ Operations and administrative managers  
-- ✅ Department heads and medical coordinators  
-- ✅ Healthcare analysts and business analysts  
-- ✅ Decision-makers involved in budgeting, staffing, and capacity planning  
+- Hospital executives and directors  
+- Operations and administrative managers  
+- Department heads and medical coordinators  
+- Healthcare and business analysts  
 
-The insights help these stakeholders **understand what is happening, why it is happening, and what actions should be taken next** to improve both operational efficiency and patient outcomes.
+The insights enable stakeholders to understand **what is happening, why it is happening, and what actions should be taken** to improve both operational efficiency and patient outcomes.
 
 ---
 
