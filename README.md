@@ -292,6 +292,7 @@ At the same time, underperforming departments represent opportunities to **optim
 ### 👨‍⚕️ Dashboard 2 – Doctors Performance Analysis
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Doctors.png)
+
 #### 🔍 Doctor Performance & Workload Analysis
 
 #### 🔎 Observation
@@ -371,12 +372,11 @@ At the same time, the high follow-up rate suggests an opportunity to **increase 
 - Strengthen strategic partnerships with **key insurance providers (AXA, Aviva, Allianz)** while exploring diversification opportunities.
 - Leverage the high follow-up rate to implement **long-term care programs and patient retention strategies**.
 - Monitor **emergency visit trends (~25%)** to optimize resource allocation and capacity planning.
-- 
+  
 ---
 
 <a id="final-conclusion--recommendations"></a>
 ## 🔎 Final Conclusion & Recommendations  
-## 🔎 Final Conclusion & Recommendations
 
 ### 📌 Key Findings
 
