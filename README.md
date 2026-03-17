@@ -19,7 +19,6 @@
 
 ### 📘 What is this project about?
 
-### 📖 What is this project about?
 
 Hospitals generate large volumes of operational and financial data, but turning this data into actionable insights for decision-making remains a challenge.
 
