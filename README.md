@@ -31,6 +31,7 @@ The analysis aims to identify:
 - Demand patterns across patient segments  
 
 These insights support data-driven decisions in **resource allocation, cost optimization, and operational efficiency improvement**.
+
 ---
 
 ### 👥 Who is this project for?
