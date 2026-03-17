@@ -249,6 +249,7 @@ Revenue is also highly concentrated in a few departments (primarily Cardiology a
 - Expand **high-value procedures** within Cardiology and Orthopedics to increase revenue per visit.
 - Optimize **service mix and pricing strategy** to reduce reliance on low-margin services.
 - Track **revenue per visit** as a key KPI alongside total revenue.
+- 
 ### 🔍 Drill-down Analysis – Overview (Department-level)
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Drilldown.png)
@@ -292,17 +293,17 @@ At the same time, underperforming departments represent opportunities to **optim
 
 ![image alt](https://github.com/tranthuyquynh122-cyber/Healthcare-Operations-Performance-Dashboard/blob/abb078c8933119a18dc981bd5a237a77d8b2c0aa/Doctors.png)
 
-#### 🔍 Doctor Performance & Workload Analysis
+#### Analysis 2: Doctor Performance & Workload Analysis
 
 #### 🔎 Observation
 
 Patient workload is highly uneven across physicians.
 
-Out of 5 doctors, **the top 2 doctors (Dr. Sade Kikola and Dr. Olu Abiola) handle approximately 65% of total patient visits**, with **1,875 (37.7%) and 1,357 (27.3%) patients respectively**.
+Out of 5 doctors, the top 2 (Dr. Sade Kikola and Dr. Olu Abiola) handle approximately **65% of total patient visits**, with **1,875 (37.7%) and 1,357 (27.3%) patients** respectively.
 
-In contrast, the remaining 3 doctors each manage less than 20% of total visits, with some handling below 10%.
+In contrast, the remaining 3 doctors each manage less than 20% of total visits, with some handling below 10%, indicating a highly concentrated workload distribution.
 
-This indicates a **highly concentrated workload distribution**.
+Notably, **Dr. Olu Abiola not only handles a high volume of patients (~27%) but also achieves one of the highest patient satisfaction scores**, demonstrating strong performance in both efficiency and service quality.
 
 ---
 
@@ -310,19 +311,28 @@ This indicates a **highly concentrated workload distribution**.
 
 The patient distribution follows a **Pareto-like pattern**, where a small number of doctors account for the majority of workload.
 
-This imbalance may be driven by differences in **doctor specialization, availability, scheduling efficiency, or patient preference**.
+This imbalance suggests that hospital capacity is **not evenly utilized across physicians**, potentially driven by differences in specialization, scheduling efficiency, or patient preference.
 
-It also suggests that hospital capacity is **not evenly utilized across physicians**.
+At the same time, the case of **Dr. Olu Abiola indicates that high workload does not necessarily compromise service quality**, highlighting potential best practices in workflow or patient management that could be replicated across other doctors.
 
 ---
 
 #### 📉 Business Impact
 
-Over-reliance on a small group of doctors creates a risk of **physician fatigue and burnout**, especially for top performers handling a disproportionately high workload.
+Over-reliance on a small group of doctors creates a risk of **physician fatigue and burnout**, particularly for top performers handling a disproportionately high workload.
 
-At the same time, underutilized doctors represent **unused operational capacity**, leading to inefficiencies in resource allocation.
+Meanwhile, underutilized doctors represent **unused operational capacity**, leading to inefficiencies in resource allocation.
 
 If not addressed, this imbalance may impact both **service quality and operational scalability**.
+
+---
+
+#### 🎯 Recommendations
+
+- Rebalance patient demand by optimizing **appointment scheduling and doctor assignment logic**.
+- Reduce dependency on top-performing doctors by **redistributing workload across available physicians**.
+- Identify and replicate **best practices from high-performing doctors (e.g., Dr. Olu Abiola)** across the organization.
+- Monitor **patient share per doctor (%)** as a key KPI to maintain sustainable workload distribution.
 
 ---
 
@@ -335,42 +345,55 @@ If not addressed, this imbalance may impact both **service quality and operation
 
 ### 🧑‍🤝‍🧑 Dashboard 3 – Patient Profile & Behavior Analysis
 
+<img width="1266" height="741" alt="image" src="https://github.com/user-attachments/assets/123c66ca-3b21-41c9-8647-9404041a84ec" />
+
+### Analysis 3: Patient Profile & Behavior Analysis
+
 #### 🔎 Observation
 
-The hospital serves a total of **4,973 patients**, with demand concentrated in specific demographic segments.
+The hospital serves a total of **4,973 patients**, with demand distributed unevenly across demographic groups, time, and insurance providers.
 
-Patients aged **55+ account for the largest share (~38.8%)**, followed by the **18–35 group (~28%)**, while other age groups each contribute around 16%.
+Patient volume peaks significantly in **January (~1,235 visits)** and declines in subsequent months, stabilizing between **~300–600 visits** throughout the year. 
 
-Insurance coverage is highly concentrated, with **three providers (AXA, Aviva, Allianz) collectively covering nearly 100% of patients**, each contributing approximately one-third.
+October shows an unusually low value (**~45 visits**), indicating a potential data anomaly rather than a true seasonal pattern.
 
-In addition, **emergency visits account for ~24.7% of total visits**, and **follow-up visits represent 50%**, indicating a significant proportion of recurring patient demand.
+From a demographic perspective, patients aged **55+ account for the largest share (~38.8%)**, followed by the **18–35 group (~28%)**, while other age groups each contribute around 16%.
 
+Insurance coverage is highly concentrated, with **three providers (AXA, Aviva, Allianz) covering nearly 100% of patients**, each contributing approximately one-third.
 
+In addition, **emergency visits account for ~24.7% of total visits**, while **follow-up visits represent 50%**, indicating a significant proportion of recurring patient demand.
+
+---
 
 #### 💡 Interpretation
 
-Patient demand is **not evenly distributed**, but concentrated in older age groups and a limited number of insurance providers.
+Patient demand does not follow a strong seasonal pattern, but shows a **one-time spike at the beginning of the year**, likely driven by post-holiday healthcare needs, followed by stable demand.
 
-The high share of patients aged 55+ suggests that hospital services are heavily utilized by **aging populations with higher healthcare needs**.
+Demand is also **not evenly distributed across patient segments**, with a clear concentration in older age groups (55+), suggesting that hospital services are heavily utilized by patients with higher and ongoing healthcare needs.
 
-The high follow-up rate (50%) indicates **strong patient retention or ongoing treatment cycles**, rather than one-time visits.
+The high follow-up rate (**50%**) indicates **strong patient retention and repeated treatment cycles**, rather than one-time visits.
 
+At the same time, the heavy reliance on a limited number of insurance providers suggests **low diversification in payer mix**.
 
+---
 
 #### 📉 Business Impact
 
-Dependence on a specific demographic group (55+) and a limited number of insurance providers creates **concentration risk**, making revenue vulnerable to demographic shifts or policy changes.
+Dependence on a specific demographic group (**55+ ~38.8%**) and a limited number of insurance providers increases **concentration risk**, making revenue vulnerable to demographic shifts or policy changes.
 
-At the same time, the high follow-up rate suggests an opportunity to **increase patient lifetime value**, but also implies sustained operational demand.
+The high follow-up rate presents an opportunity to **increase patient lifetime value**, but also implies sustained operational demand and resource pressure.
 
+Additionally, the lack of strong seasonal variation suggests that demand is relatively stable, requiring **consistent capacity planning rather than seasonal adjustments**.
 
+---
 
 #### 🎯 Recommendations
 
-- Develop targeted healthcare programs for **older patient segments (55+)**, where demand is highest.
-- Strengthen strategic partnerships with **key insurance providers (AXA, Aviva, Allianz)** while exploring diversification opportunities.
-- Leverage the high follow-up rate to implement **long-term care programs and patient retention strategies**.
-- Monitor **emergency visit trends (~25%)** to optimize resource allocation and capacity planning.
+- Develop targeted healthcare programs for **older patient segments (55+)**, where demand is highest  
+- Diversify insurance partnerships beyond the current three providers to **reduce payer concentration risk**  
+- Leverage the high follow-up rate (**50%**) to build **long-term care programs and retention strategies**  
+- Monitor patient volume trends monthly to detect **anomalies (e.g., October)** and improve data reliability  
+- Align resource planning with **stable demand patterns** rather than assuming strong seasonality  
   
 ---
 
