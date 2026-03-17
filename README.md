@@ -238,9 +238,9 @@ The concentration of revenue in a few departments indicates a **structural depen
 
 #### 📉 Business Impact
 
-If this trend continues, the hospital may experience **increasing workload without proportional revenue growth**, reducing operational efficiency.
+If this trend continues, the hospital will face increasing workload driven by rising patient volume (4,973 visits), while average revenue per visit (£674.86) is declining, reducing operational efficiency.
 
-Revenue concentration also creates **financial risk**, as performance becomes dependent on a limited number of departments.
+Revenue is also highly concentrated in a few departments (primarily Cardiology and Orthopedics), increasing financial risk as overall performance becomes dependent on a limited number of service lines.
 
 ---
 
